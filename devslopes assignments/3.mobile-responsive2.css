@@ -1,0 +1,162 @@
+.container{
+  display: grid;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: white url(https://media.istockphoto.com/photos/colorful-background-red-blue-and-yellow-orange-colors-abstract-modern-picture-id1332601848?b=1&k=20&m=1332601848&s=170667a&w=0&h=_zrnj0NBLjjuMfPvSqxEHn2-oVlExHhOPXP9HsOO_eI=);
+  min-width: 100%;
+  padding-bottom: 15px;
+}
+
+.info {
+    display: grid;
+    grid-template-areas: 
+    "info-header info-header"
+    "paragraph1 paragraph2";
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+
+}
+
+.info-header {
+  grid-area:info-header;
+
+}
+
+.info-paragraph1 {
+  grid-area:paragraph1;
+  padding-right: 25px;
+}
+
+.info-paragraph2{
+  grid-area:paragraph2;
+  padding-left: 25px;
+  
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px solid black;
+  }
+
+.cards{
+  display:grid;
+  grid-template-areas:"web ios android";
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+
+.android {
+  width: 230px;
+  grid-area: android;
+  background-color: black;
+  color: white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.ios {
+  grid-area: ios;
+  background-color: black;
+  width: 230px;
+  color: white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.web {
+  grid-area: web;
+  background-color: black;
+  width: 230px;
+  color: white;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.info2{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+ .info3 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+} 
+  
+
+.contact{
+  background-color:black;
+  color:white
+}
+.rad {
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  grid-template-areas: "one two";
+  display: grid;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.one {
+  grid-area:one
+}
+
+.two {
+  grid-area: two  ;
+}
+
+@media (max-width:700px) 
+{
+
+  .info {
+ display: block
+                      ;
+  }
+  .cards{
+    grid-template-areas:
+    "web" 
+    "ios"
+    "android";
+  }
+  .android{
+    border-left:3px solid white;
+    border-top:none;
+  }
+.web {
+  border-right: 3px solid white;
+  border-bottom: none;
+}
+
+.footer {
+  display: block;
+  grid-template-areas:
+  "one"
+  "two" ;
+  text-align: center;
+}
+}
+
+

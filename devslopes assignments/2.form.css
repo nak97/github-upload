@@ -1,0 +1,68 @@
+.background-img{
+  background-image:url(https://www.deccanherald.com/sites/dh/files/articleimages/2020/07/13/sun%20istock-1594647126.jpg);
+}
+
+
+
+
+
+.background-border{
+  position:relative;
+  box-sizing: border-box;
+  width:600px;
+  border: solid #5B6DCD 2px;
+  left:360px;
+  opacity:1;
+  text-align: center;
+  color: navy;
+}
+
+
+.namelab{
+position: relative;
+right:210px
+}
+
+
+.emaillab{
+  position: relative;
+  right:210px
+}
+
+.agelab{
+  position: relative;
+  right:185px
+}
+
+.rolelab{
+  position: relative;
+right: 100px;
+}
+
+.name{
+position: relative;
+width:450px
+}
+
+.email{
+position: relative;
+width:450px
+}
+
+
+.age{
+  position: relative;
+  width:450px
+}
+
+.roletxt{
+  position: relative;
+  right:0px;
+  width:450px;}
+
+  .prad{
+    position: relative;
+    right: 75px;
+  }
+ 
+ 

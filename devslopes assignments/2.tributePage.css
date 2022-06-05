@@ -1,0 +1,35 @@
+
+.list{
+justify-content: center;
+display: flex;
+border: 2px solid gold;
+background: red;
+color: white;
+padding: 10px;}
+
+.llist{
+  list-style-type: none;
+}
+
+
+.Armstrong {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+}
+
+figcaption{text-align: center;
+padding-bottom: 10px;}
+
+.border{
+  text-align: center;
+  border: 3px solid gold;
+  padding: 10px;
+  background: navy;
+  color: white;
+}
+ 
+

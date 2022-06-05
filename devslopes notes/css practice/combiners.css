@@ -1,0 +1,15 @@
+section /** > and + or only a space**/ p{
+/** to select specific parts of a nested code you can first type the parent selector followed by the child selector leaving only a space in between. 
+  as shown above it allows for all of the <p> to be selected within the section parent selector. When you place a > in between the parent and child selectors
+  it will only affect the the elements within one layer within the nested element. In this example it would only effect everything in front of the div if you look at the html. 
+If you only want to select the adjacent element or the element just after the parent selector then you use a +. This will only select paragraph 4 if you look at the HTML. **/
+  background-color: lightblue;
+  font-size: 16px;}
+
+  section ~ p { 
+    background-color: red;
+  }
+
+  /** the ~ us known as the general selector, which means that it will only select all of the child selectors outside of the parent selector one layer deep. 
+  SO anything that has a div or a anything else that is nested it will not select effect. in this example paragraphs 4,5,8,9 were affected. **/
+  

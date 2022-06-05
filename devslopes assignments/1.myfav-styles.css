@@ -1,0 +1,53 @@
+table{ width:100%;}
+
+table,th,tr,td{border:1px solid blue;}
+
+.roast-beef{ width:200px; height:200px;
+display:block;
+margin-left: 125px;
+margin-right: auto;}
+
+.seafood{ width:200px; height:200px;
+margin-left: 90px;
+margin-right:auto}
+
+
+.jeep{width: 200px; height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;}
+
+
+.prius{width:200px; height:200px; 
+display:block;
+margin-left:auto;
+margin-right:auto;}
+
+
+.ar-15{width:200px; height:200px;
+margin-left:90px;
+margin-right:auto}
+
+
+.anti-gun{width:200px; height:200px;
+margin-left:145px;
+margin-right:auto;}
+
+.hot-weather{width:200px; height:200px;
+margin-left:130px; 
+margin-right:auto;}
+
+.cold-weather{width:200px; height:200px;
+margin-left:130px; 
+margin-right:auto; }
+
+
+.Texas{width:200px; height:200px;
+margin-left:130px; 
+margin-right:auto;}
+
+.Every-Where {
+width:200px;
+height:200px;
+margin-left: 130px; 
+margin-right:auto;}

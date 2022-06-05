@@ -1,0 +1,13 @@
+.main {
+  border: 2px dotted blue; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-;
+}
+.main > div {
+  width: 75px;
+  height: 75px;
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,217 @@
+.container{
+  display: grid; 
+  max-width: 100%;
+  margin: auto;
+  padding: auto ;
+}
+
+.title {
+  display: grid;
+  background:#FCE77D url('https://assets.newatlas.com/dims4/default/39dce54/2147483647/strip/true/crop/5000x3502+0+0/resize/1371x960!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F3e%2Fe8%2F80356654422882922496192fc567%2Fveil-nebula.jpeg');
+  padding-right: 300px ;
+  padding-left: 300px;
+  padding-bottom: 50px;
+  margin: 0px;
+  color: white;
+  
+}
+
+.title-header{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+button {
+  height:25px;
+  width: 100px;
+  background: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.info {
+  display: grid;
+  background-color: white;
+  padding-right: 300px ;
+  padding-left: 300px;
+  padding-bottom: 50px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "info-header info-header"
+  "paragraph1 paragraph2";
+
+
+}
+
+.info-header {
+  grid-area: info-header;
+  text-align: center;
+}
+.info-paragraph1 {
+  grid-area: paragraph1;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+.info-paragraph2 {
+  grid-area: paragraph2;
+  text-align: center;
+  margin-right: 10px;
+  
+}
+
+.cards {
+  background-color: #FCE77D;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: "web ios android ";
+  text-align: center;
+  padding-left: 310px;
+  padding-right: 310px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.android {
+  width: 200px;
+  grid-area: android;
+  background-color: white;
+}
+
+.ios {
+  width: 200px;
+  grid-area: ios;
+  background-color: white;
+  
+}
+
+.web {
+  width:200px;
+  grid-area: web;
+  background-color: white;
+}
+
+
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px solid black;
+  }
+
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  .info3 {
+    display: grid;
+    grid-template-areas:"contact rad" ;
+  }
+
+  .rad {
+    grid-area:rad;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #F96167;
+  }
+  .contact  {
+    grid-area: contact;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #f96166de;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "one two";
+    padding-right: 0px;
+    text-align: center;
+    background-color: black;
+    color:white;
+   
+  }
+
+  .one {
+    grid-area: one;
+  }
+
+  .two {
+    grid-area: two;
+  }
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+@media (max-width:700px){
+
+  .container {
+    max-width:  100%; 
+  }
+
+  .title{
+    
+  } 
+
+
+  .info{
+    grid-template-columns: 1fr;
+    grid-column: span 2;
+    /* grid-template-areas: 
+    "info-header"
+    "paragraph1"
+    "paragraph2"; */
+    
+  }
+
+  .info-header {
+    height: auto;
+  }
+  .cards{
+    grid-template-areas: 
+    "web"
+    "ios"
+    "android";
+    max-width: 700px;
+
+    
+
+  }
+
+  .info3 {
+    grid-template-areas: 
+    "contact"
+    "rad";
+    text-align: center;
+  }
+
+  .footer {
+    grid-template-areas: 
+    "one"
+    "two";
+    text-align: center;
+    width: auto;
+  }
+}
+
+  

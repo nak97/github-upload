@@ -1,0 +1,182 @@
+.container {
+  display: grid;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+ .logo-container {
+  display: inline;
+  padding-left: 2px;
+  margin:0 2px;
+} 
+
+img {
+  max-width: 100%;
+}
+
+[aria-controls="menu-list"] {
+	display: none;
+}
+
+ 
+nav ul {
+list-style: none;
+padding:0px;
+margin:0;
+float: right;
+}
+
+nav li {
+  display:inline-block;
+  margin: 0 5px;
+  padding-right: 20px;
+  }
+
+  nav a {
+    color:black;
+    text-decoration: none;
+  }
+
+.about-us{
+  display: flex;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.cards  {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-top: 50px;
+  grid-gap: 10px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.rroom-one,.rroom-two,.rroom-three {
+  height: 200px;
+  width:300px;
+}
+
+.team {
+  margin: auto;
+  display: grid;
+  text-align: center;
+}
+
+.profile-cards {
+  display:grid;
+  padding-top: 50px;
+  grid-template-columns: repeat(4,1fr);
+  margin: auto;
+  grid-gap: 70px;
+}
+
+.m-one,.f-one,.j-one,.mm-one {
+  width:200px;
+  height:200px;
+}
+
+.socialMedia-container {
+    background-color: #282828;
+    color: #777;
+    display: grid;
+    margin-top: 90px;
+}
+
+.socialMedia-container ul {
+list-style: none;
+padding:0px;
+margin:0;
+}
+
+.socialMedia-container li {
+  display:inline-block;
+  padding-right: 10px;
+
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-one {
+  text-align: center;
+}
+
+.company,.e-mail,.phone-numbers {
+  color:white;
+}
+
+h1,h2,h3 {
+  color: #6b6b6b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #999;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media ( max-width: 768px ){
+  .m-one,.f-one,.j-one,.mm-one{
+    height: 100px;
+  }
+  .menu {
+    
+    perspective: 800px;
+  }
+
+  .menu ul {
+    max-height: 0;
+    overflow: hidden;
+    transform: rotateX(90deg);
+    transition: all 0.5s;
+  }
+  
+  [aria-controls="menu-list"]
+  {display: block ;
+  margin-bottom: 10px;}
+  
+.menu {
+  float: right;
+}
+  
+  [aria-expanded="true"] ~ ul {
+    display: grid;
+    float: right;
+    max-height: 500px;
+    transform: rotateX(0);
+  }
+  
+  [aria-expanded="false"] .close {
+    display:none
+  }
+  
+  [aria-expanded="true"] .close {
+    display:inline-block
+  }
+  
+  [aria-expanded="true"] .open {
+    display:none
+  }
+  
+  button {
+    float: right;
+  }
+}
+
+
+

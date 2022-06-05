@@ -1,0 +1,10 @@
+.box {
+width: 600px;
+height: 500px;
+background-image: linear-gradient(violet,yellow,red, blue);
+/** direction values and color values go inside the parenthesis examples of changing the direction are "to bottom, to top, to left, to right, can also use degrees such as 180deg,-180deg" 
+what ever is in side the parenthesis is where the colors will end. I can add multiple colors and not just 2**/
+
+background-image: radial-gradient(red,blue,violet);
+/** the color instead of going from left to right it starts from the inside**/
+}

@@ -1,0 +1,45 @@
+h1 {  color:#6002ee;}
+h2 {color:#d602ee;}
+em {color:#ee6002;}
+
+/** how to select via elements **/ 
+button {
+  background: lightgrey;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+  padding: 8px 10px;
+
+}
+
+
+input { 
+  background:#efe5fd;
+  border: 1px solid #b794f6;
+  border-radius: 5px;
+  color: #7e3ff2;
+
+}
+input:focus{
+  outline:none;
+  border: 1px solid #6002ee;
+
+}
+
+
+/** how to select via class selectors using the class attribut from html **/
+.btn-primary {  
+  background: #836fa7;
+  border: 1px solid #7e3ff2;
+  color: #efe5fd;}
+
+  .btn-secondary
+  {background:transparent;
+  border: 1px solid#7e3ff2;
+color: #7e3ff2;}
+
+/** ID selectors #
+the name has to be unique, and cannot be reused for the whole project using the ID attribute is not reusable. 
+it has a higher specificity than other attributes. **/
+
+

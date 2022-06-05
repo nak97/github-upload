@@ -1,0 +1,24 @@
+.a
+{
+font-family:'Times New Roman', Times, serif
+}
+
+.b{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.c
+{
+ font-family: 'Courier New', Courier, monospace;
+}
+
+/** very important to know, if not working make sure that the class is not named after the specific
+font-family you are trying to use other wise it will not work. 
+
+
+
+
+/** there are two types of font families, the specific and the generic
+serif and sans-serif are two different generic font families, 
+Times New Roman is a specific serif font family and "Arial" 
+is a specific font family for sans-serif **/

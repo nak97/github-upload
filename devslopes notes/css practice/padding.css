@@ -1,0 +1,42 @@
+div {
+  background: lightblue;
+  padding:15px 30px;
+}
+
+input {
+  padding: 5px 10px;
+  margin-top: 100px;
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+ /* single value - adds margin to all sides*/
+ margin:20px;
+
+  /* two values - 1st: top/bottom 2nd: left/right*/
+  margin:20px 5px;
+
+   /* three values - 1st: top 2nd left/right 3rd: bottom*/
+ margin:20px 5px 40px;
+
+
+ /* three values - 1st: top 2nd right 3rd: bottom 4th is left*/
+ margin:20px 5px 40px 50px;
+}
+
+.box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  background-color: tomato;
+  max-height: 200px;
+  overflow: scroll;
+  min-height: 100px;
+
+}

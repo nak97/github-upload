@@ -1,0 +1,14 @@
+h2 {
+  color: blue;
+
+}
+#h2Id{color: firebrick;}
+
+html body div.container-1 section h2 {
+  color: red;
+}
+
+.class-h2 {
+  color: green;
+}
+

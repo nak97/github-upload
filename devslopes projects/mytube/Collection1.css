@@ -1,0 +1,124 @@
+.bgc {
+  background-color: chocolate;
+  height: 300px;
+  width: 1900px;
+  z-index: 1;
+  background-position: center top;
+
+}
+
+
+.nav {
+  position: relative;
+  font-size: 20px;
+  z-index: 5;
+  word-spacing: 1px;
+}
+
+
+iframe {
+  width: 412px;
+  height: 200px;
+
+}
+.bcgv {
+  background-color: #FFECB3;
+}
+
+.title {
+position: relative;
+text-align: center;
+bottom: 70px;
+
+}
+
+.img {
+position: relative;
+height: 24px;
+width: 24px;
+left: 980px;
+bottom: 200px;
+}
+
+.search {
+  position: relative;
+  width: 230px;
+  left: 975px;
+  bottom: 208px;
+  height:21px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+
+iframe {
+  height: 200px;
+  width: 400px;
+  border:4px solid black;
+}
+
+.icon {
+height: 50px;
+width: 50px;
+border:4px solid black;
+}
+
+.bar{ 
+  position: relative;
+  bottom: 8px;
+  right:6px;
+  border:4px solid black;
+}
+
+#navbar{
+ position: relative;
+ left: 250px;
+ border:4px solid black;
+}
+
+h1{
+  position: relative;
+  left: 570px;
+  border:4px solid black;
+}
+**/
+
+
+
+

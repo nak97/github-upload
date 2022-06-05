@@ -1,0 +1,104 @@
+
+
+table,th,tr,td{
+  border:1px solid black;
+  width:auto;
+  padding: 10px;
+  
+  
+}
+
+
+
+.roast-beef{ 
+  width: 200px; 
+  height: 200px;
+  display:block;
+  padding:10px 10px ;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.seafood{ 
+  width:200px; 
+  height:200px;
+  padding: 10px 10px;
+  border-radius: 30px 30px 30px 30px;
+
+}
+
+
+.jeep{
+  width: 200px; 
+  height: 200px;
+  display: block;
+  padding: 10px 10px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+.prius{
+   width:200px;
+   height:200px; 
+   display:block;
+   padding: 10px 10px;
+   border-radius: 30px 30px 30px 30px;
+}
+
+
+.ar-15{
+  width:200px; 
+  height:200px;
+  padding: 10px 10px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+.anti-gun{
+  width:200px; 
+  height:200px;
+  padding: 10px 10px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.hot-weather{
+   width:200px;
+   height:200px;
+   padding: 10px 10px;
+   border-radius: 30px 30px 30px 30px;
+}
+
+.cold-weather{
+  width:200px; 
+  height:200px;
+  padding: 10px 10px;
+  border-radius: 30px 30px 30px 30px;
+ }
+
+
+.Texas{
+   width:200px;
+   height:200px;
+   padding: 10px 10px;
+   border-radius: 30px 30px 30px 30px;
+}
+
+.Every-Where {
+width:200px;
+height:200px;
+padding: 10px 10px;
+border-radius: 30px 30px 30px 30px;
+}
+
+.fav {
+  color: red;
+  width: 400px;
+  
+}
+
+.notFav {
+  color: blue;
+  width: 400px;
+ 
+}
+
+th {background-color: gold;}

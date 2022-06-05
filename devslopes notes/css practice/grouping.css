@@ -1,0 +1,33 @@
+body {
+  background-color:dimgray;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  font-family: sans-serif;
+}
+
+p, label{
+  color: peru;
+
+}
+
+.contact-header {
+  color: yellowgreen;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px black;
+}
+.contact-title-1, .contact-title-2{
+  color: lightskyblue;
+  font-weight: 300;
+}
+
+.contact-title-1
+{ font-family: verdana;}
+
+.contact-title-2
+{color: lightskyblue;
+font-weight: 300;}
+
+
+
